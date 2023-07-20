@@ -1,0 +1,45 @@
+body {
+    background-color: #C2DEDC;
+}
+
+/* Frame styles */
+.frame {
+    background-color:#116A7B;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 300px; /* Increase the frame width */
+    height: 300px; /* Increase the frame height */
+    margin: 0 auto;
+    padding: 20px;
+    /* Center the frame vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Additional styles for the frame content */
+.frame h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+/* Styles for the buttons */
+.frame a.button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #78C1F3;
+    font-size: 14px; /* Reduced font size */
+    padding: 10px 20px; /* Reduced padding to create smaller buttons */
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 30px; /* Add space between buttons (margin-bottom) */
+    margin-right: 25px;
+  
+}
+
+.frame a.button:hover {
+    background-color: #0056b3;
+}

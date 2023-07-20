@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#C2DEDC;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Styles for the form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#116A7B ;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Styles for the labels */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Styles for the dropdowns */
+form select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Styles for the submit button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #78C1F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+  /* Styles for the buttons */
+  .api a.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #78C1F3;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 2px solid #0056b3; /* Add border to create a box shape */
+    border-radius: 15px;
+    transition: background-color 0.2s ease-in-out;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.api a.button:last-child {
+    margin-right: 0; /* Remove margin from the last button to prevent spacing */
+}
+
+.api a.button:hover {
+    background-color: #0056b3;
+}

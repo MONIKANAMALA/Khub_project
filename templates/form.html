@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Entry Form</title>
+    <link rel="stylesheet" type="text/css" href="../static/form.css">
+</head>
+<body>
+    <h1>Data Entry Form</h1>
+    <form action="/form" method="post">
+        <!-- Replace 'col1', 'col2', etc., with the actual column names you need -->
+        <label for="col1">states:</label>
+        <select name="col1" required>
+            <option value="">Select a state</option>
+            <option value="andrapradesh">ANDRAPRADESH</option>
+            <option value="bihar">BIHAR</option>
+            <option value="maharastra">MAHARASTRA</option>
+            <option value="delhi">DELHI</option>
+            <option value="tamilnadu">TAMILNADU</option>
+            <option value="odissa">ODISSA</option>
+            <option value="kerala">KERALA</option>
+            <option value="karnataka">KARNATAKA</option>
+            
+            <!-- Add more options for states -->
+        </select>
+        <br>
+    
+        <label for="col2">language:</label>
+        <select name="col2" required>
+            <option value="">Select a language</option>
+            <option value="telugu">TELUGU</option>
+            <option value="hindi">HINDI</option>
+            <option value="tamil">TAMIL</option>
+            <option value="oriya">ORIYA</option>
+            <option value="malayalam">MALAYALAM</option>
+            <option value="kanada">KANADA</option>
+            <option value="english">ENGLISH</option>
+            <option value="marathi">MARATHI</option>
+            <!-- Add more options for languages -->
+        </select>
+        <br>
+        <label for="col3">favorite dish:</label>
+        <select name="col3" required>
+            <option value="">Select a favorite dish</option>
+            <option value="biryani">BIRYANI</option>
+            <option value="pullihora">PULLIHORA</option>
+            <option value="chicken fired rice">CHICKEN FIRED RICE</option>
+            <option value="masala dosa">MASALA DOSA</option>
+            <option value="palak paneer">PALAK PANEER</option>
+            <option value="chicken tandoori">CHICKEN TANDOORI</option>
+            <option value="paneer tikka">PANEER TIKKA</option>
+            <option value="khichidi">KHICHIDI</option>
+
+        </select>
+    
+    
+        <!-- Add more input fields or dropdowns for additional columns -->
+    
+        <input type="submit" value="Submit">
+        <div class="api">
+        <a href="{{ url_for('pie_chart') }}" class="button">VIEW PIECHART</a>
+        <a href="{{ url_for('bar_graph') }}" class="button">VIEW BARGRAPH</a>
+    </div>
+    </form>
+    
+</body>
+</html>

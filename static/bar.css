@@ -1,0 +1,19 @@
+/* bar.css */
+/* bar.css */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:  #C2DEDC;
+}
+
+.chart-container {
+    margin-bottom: 20px;
+  }
+  
+  .chart-container canvas {
+    width: 100%;
+    height: 300px;
+  }
+  

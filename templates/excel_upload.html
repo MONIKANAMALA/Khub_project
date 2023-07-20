@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Excel File</title>
+    <link rel="stylesheet" type="text/css" href="../static/excel.css">
+</head>
+<body>
+    <h1>Upload Excel File</h1>
+    <form action="/excel" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload">
+    </form>
+    <div class="api">
+        <a href="{{ url_for('pie_chart') }}" class="button">VIEW PIECHART</a>
+        <a href="{{ url_for('bar_graph') }}" class="button">VIEW BARGRAPH</a>
+    </div>
+</body>
+</html>
